@@ -1,0 +1,10 @@
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code  # clone a repo
+        uses: actions/checkout@v4
+
+      - name: List files
+        run: ls
